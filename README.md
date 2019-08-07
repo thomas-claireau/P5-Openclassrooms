@@ -30,4 +30,24 @@ Vous souhaitez maintenant aller plus loin et proposer les options suivantes :
 
 Adaptez le programme pour qu'il puisse offrir ces fonctionnalités. A vous de jouer !
 
-### ⌛ Projet en cours...
+### ✔️ Projet validé
+
+PRESENTATION:
+
+Bonne présentation qui montre les détails du code
+TECHNIQUE:
+
+Bonne séparation du code en fonction
+Certains éléments du code auraient pu être optimisés (une répétition de code qui aurait pu être facilement évitée, construction de la phrase avec des "if"/"else if", phrases dans un objet "data" non utile), mais cela viendra avec l'expérience
+GENERALE:
+
+Le projet fonctionne, même si quelques optimisations n'ont pas étés pensé.
+Il aurait été plus agréable pour l'utilisateur d'avoir une interface - simple - pour sélectionner les options que des "prompts" un peu polluants visuellement, mais cela est en dehors de la demande de l"énoncé, et donc non pris en compte dans la décision.
+
+NOTE:
+
+J'ai pensé a demander à l'étudiant de faire certaines améliorations du code, mais nous les avons finalement fait en 5 minutes lors du débriefing. Les changements faits ont été :
+
+Eviter le doublon de la fonction "startGenerator"
+Utilisation de "join" pour la génération de la phrase
+La variable "randomInt" n'est pas un tableau, et est déclarée dans la boucle "for"
