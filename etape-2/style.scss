@@ -1,0 +1,48 @@
+$bg: rgb(22, 20, 46);
+$jaune: rgb(238, 238, 43);
+$blanc: #fff;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-color: $bg;
+	font-family: 'Source Code Pro';
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+
+	* {
+		box-sizing: border-box;
+	}
+
+	h1 {
+		color: $jaune;
+		font-size: 50px;
+	}
+
+	.play {
+		svg {
+			width: 60px;
+			height: 60px;
+			fill: $blanc;
+			cursor: pointer;
+			transform: scale(1);
+			transition: transform 0.3s ease-in-out;
+
+			&:hover {
+				transform: scale(1.1);
+				transition: transform 0.3s ease-in-out;
+			}
+		}
+	}
+
+	.info {
+		margin-top: 30px;
+		color: $blanc;
+	}
+}
