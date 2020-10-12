@@ -51,8 +51,3 @@ J'ai pensé a demander à l'étudiant de faire certaines améliorations du code,
 Eviter le doublon de la fonction "startGenerator"
 Utilisation de "join" pour la génération de la phrase
 La variable "randomInt" n'est pas un tableau, et est déclarée dans la boucle "for"
-
-
-### 🎬 Cliquez sur l'image ci-dessous pour voir la vidéo de soutenance 👇
-
-[![Regarder la vidéo de soutenance](https://img.youtube.com/vi/s79aMG2_u0U/maxresdefault.jpg)](https://youtu.be/s79aMG2_u0U)
